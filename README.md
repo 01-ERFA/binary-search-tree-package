@@ -1,4 +1,4 @@
-# Binary Search Tree v2.0.0
+# Binary Search Tree v2.0.1
 
 ## Description
 

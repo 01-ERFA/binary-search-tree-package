@@ -52,16 +52,15 @@ class BinarySearchTree:
         __type: The type of elements stored in the binary search tree.
         
     Methods:
-
         pop(): Removes and returns the maximum element from the binary search tree.
         popleft(): Removes and returns the minimum element from the binary search tree.
         copy(): Returns a deep copy of the binary search tree.
-        insert(*args)
-        remove(*args)
-        search(*args)
+        insert(*args): Inserts the specified elements into the binary search tree.
+        remove(*args): Removes the specified elements from the binary search tree.
+        search(*args): Checks if all the specified elements are present in the binary search tree.
         is_compatible(*args): Checks if all the elements in the provided arguments are compatible with the type stored in the binary search tree.
         clear(): Removes all nodes from the binary tree, leaving it empty.
-
+        
         inorder(): Returns a list containing the elements of the binary search tree in sorted order (in-order traversal).
         preorder(): Returns a list containing the elements of the binary search tree in pre-order traversal order.
         postorder(): Returns a list containing the elements of the binary search tree in post-order traversal order.
