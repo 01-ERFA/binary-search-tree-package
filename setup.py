@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ran-bst',
-    version='2.0.1',
+    version='2.1.0',
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     author='Ran',
